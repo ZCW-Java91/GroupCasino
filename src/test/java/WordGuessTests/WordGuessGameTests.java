@@ -1,8 +1,7 @@
 package WordGuessTests;
 
-import com.github.zipcodewilmington.casino.games.WordGuess.WordGuessGame;
+import com.github.zipcodewilmington.casino.games.casualGames.wordGuess.WordGuessGame;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 public class WordGuessGameTests {

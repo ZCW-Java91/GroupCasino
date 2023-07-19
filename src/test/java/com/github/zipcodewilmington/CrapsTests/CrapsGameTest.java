@@ -1,6 +1,6 @@
 package com.github.zipcodewilmington.CrapsTests;
 
-import com.github.zipcodewilmington.casino.games.Craps.CrapsGame;
+import com.github.zipcodewilmington.casino.games.gamblingGames.Craps.CrapsGame;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

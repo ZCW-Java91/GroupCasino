@@ -7,7 +7,6 @@ import com.github.zipcodewilmington.casino.CasinoAccount;
  */
 public class SlotsPlayer {
 
-    private CasinoAccount
     private int bet;
     private int balance;
 

@@ -40,6 +40,7 @@ public class CasinoAccountManager {
 
            if (acctName.equals(accountName) && acctPassword.equals(accountPassword)){
                console.println("Finding account for (%s)...", acctName);
+               console.println("Account found. Welcome (%s)!", acctName);
                return account;
            }
        }

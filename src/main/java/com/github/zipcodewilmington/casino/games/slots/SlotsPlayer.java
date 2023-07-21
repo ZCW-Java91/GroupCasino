@@ -1,5 +1,6 @@
 package com.github.zipcodewilmington.casino.games.slots;
 
+
 import com.github.zipcodewilmington.casino.CasinoAccount;
 import com.github.zipcodewilmington.casino.GamblerInterface;
 import com.github.zipcodewilmington.casino.PlayerClass;
@@ -24,7 +25,7 @@ public class SlotsPlayer extends PlayerClass implements GamblerInterface {
 
     @Override
     public boolean validBet(int bet) {
-        if (getWallet() > bet ) {
+        if (getWallet() > bet) {
             return true;
         }
         return false;
@@ -39,7 +40,5 @@ public class SlotsPlayer extends PlayerClass implements GamblerInterface {
     public <SomeReturnType> SomeReturnType play() {
         return null;
     }
-
-
 
 }

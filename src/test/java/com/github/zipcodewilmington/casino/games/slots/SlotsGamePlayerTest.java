@@ -11,7 +11,7 @@ public class SlotsGamePlayerTest {
     public void testMakeBet() {
         CasinoAccount wallet = new CasinoAccount("Brent", 500);
         IOConsole console = new IOConsole();
-        SlotsPlayer brent = new SlotsPlayer(wallet,console);
+        SlotsPlayer.SlotsPlayer brent = new SlotsPlayer.SlotsPlayer(wallet,console);
         Integer expected = 1000;
         Integer actual = brent.makeBet(expected);
         Assert.assertEquals(expected,actual);

@@ -58,7 +58,7 @@ public class NumberGuessGame {
         }
 
         public int getUserGuess() {
-            System.out.print("Waste Your Money On A Guess: ");
+            System.out.print("Waste Your Time On A Guess: ");
             return scanner.nextInt();
         }
 

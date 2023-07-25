@@ -114,7 +114,7 @@ public class GameRoulette implements GameInterface {
                 "The maximum amount you can bet is $" + bank + ".\n" +
                 " How much would you like to bet?");
         int bet = console.nextInt();
-        if (bet > player.getAccount().getBalance()) {
+        if (bet > bank) {
             System.out.println("You cannot bet more than $" + bank + ".");
             System.out.println("How much would you like to bet?");
             bet = console.nextInt();
